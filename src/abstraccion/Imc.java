@@ -12,6 +12,13 @@ package abstraccion;
 public class Imc {
     float peso;
     float altura;
+    private boolean flaco;
+    public void setFlaco(boolean flaco){
+        this.flaco=flaco;
+    }
+    public boolean getFlaco(){
+        return flaco;
+    }
     
     public Imc(float p, float a){
         peso=p;
