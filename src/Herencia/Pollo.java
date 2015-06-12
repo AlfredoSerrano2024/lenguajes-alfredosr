@@ -9,6 +9,10 @@ package Herencia;
  *
  * @author T-107
  */
-public class Aguila  extends Animal{
+public class Pollo  extends Animal implements ComportamientoRuido {
+    public String hacerRuido () {
+        return "pio pio" +getNombre();
+        
+    }
     
 }
