@@ -9,7 +9,7 @@ package Ejercicio1;
  *
  * @author T-107
  */
-public class Usuario {
+public abstract class Usuario {
     private String nombre;
     private int edad;
     private String email;
